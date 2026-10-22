@@ -1,0 +1,28 @@
+# IN 요건표 · 초안 (전문가 검수 전)
+requirements:
+  - id: IN-CRS
+    title: "BIS 강제 등록 (CRS)"
+    category: "certification"
+    basis: "BIS CRS 대상 목록"
+    url: "https://www.bis.gov.in"
+    document: "bis_crs"
+    when:
+      hs_prefix: ["8504", "9405", "8509"]
+  - id: IN-ISI
+    title: "BIS 안전 표준 (IS 302)"
+    category: "certification"
+    basis: "IS 302 시리즈"
+    url: "https://www.bis.gov.in"
+    needs_review: true
+  - id: IN-LM
+    title: "포장 표시 (Legal Metrology)"
+    category: "labeling"
+    basis: "Legal Metrology (Packaged Commodities) Rules"
+    url: "https://consumeraffairs.nic.in"
+    document: "in_label"
+  - id: IN-EPR
+    title: "전자폐기물 EPR 등록"
+    category: "document"
+    basis: "E-Waste (Management) Rules"
+    url: "https://cpcb.nic.in"
+    document: "in_epr"

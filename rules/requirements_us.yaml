@@ -1,0 +1,42 @@
+# US 요건표 · 초안 (전문가 검수 전)
+requirements:
+  - id: US-FCC-15
+    title: "FCC Part 15 · 전자파"
+    category: "certification"
+    basis: "47 CFR Part 15"
+    url: "https://www.ecfr.gov"
+    document: "fcc_report"
+  - id: US-UL
+    title: "전기 안전 시험 (권장)"
+    category: "certification"
+    basis: "OSHA NRTL 인증 시험"
+    url: "https://www.osha.gov"
+    needs_review: true
+  - id: US-FCM
+    title: "식품 접촉 재질"
+    category: "chemical"
+    basis: "21 CFR 174-178"
+    url: "https://www.ecfr.gov"
+    document: "fda_fcm_test"
+    when:
+      food_contact: true
+  - id: US-P65
+    title: "Prop 65 경고 문구"
+    category: "labeling"
+    basis: "27 CCR §25600"
+    url: "https://oehha.ca.gov"
+    needs_review: true
+  - id: US-BATT
+    title: "리튬 배터리 운송 시험 (UN38.3)"
+    category: "document"
+    basis: "49 CFR 173.185"
+    url: "https://www.ecfr.gov"
+    document: "un383_report"
+    when:
+      battery: true
+  - id: US-COO
+    title: "원산지 표시"
+    category: "labeling"
+    basis: "19 CFR Part 134"
+    url: "https://www.ecfr.gov"
+    document: "label_photo"

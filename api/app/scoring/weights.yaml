@@ -1,0 +1,11 @@
+# 준비도 점수 가중치 (초안 · 전문가 검수로 보정)
+certification: 30
+document: 25
+chemical: 20
+labeling: 15
+revision: 10
+grades:
+  - [85, "출하 가능"]
+  - [70, "조건부"]
+  - [55, "보완 필요"]
+  - [0, "재검토"]

@@ -1,0 +1,54 @@
+# EU 요건표 · 초안 (전문가 검수 전)
+requirements:
+  - id: EU-LVD
+    title: "CE · 저전압"
+    category: "certification"
+    basis: "Directive 2014/35/EU"
+    url: "https://eur-lex.europa.eu"
+    document: "lvd_report"
+  - id: EU-EMC
+    title: "CE · 전자파"
+    category: "certification"
+    basis: "Directive 2014/30/EU"
+    url: "https://eur-lex.europa.eu"
+    document: "emc_report"
+  - id: EU-ROHS
+    title: "RoHS 유해물질"
+    category: "chemical"
+    basis: "Directive 2011/65/EU"
+    url: "https://eur-lex.europa.eu"
+    document: "rohs_report"
+  - id: EU-REACH
+    title: "REACH 고우려물질"
+    category: "chemical"
+    basis: "Regulation (EC) 1907/2006"
+    url: "https://eur-lex.europa.eu"
+    needs_review: true
+  - id: EU-FCM
+    title: "식품 접촉 재질"
+    category: "chemical"
+    basis: "Regulation (EU) 10/2011"
+    url: "https://eur-lex.europa.eu"
+    document: "eu_fcm_test"
+    when:
+      food_contact: true
+  - id: EU-BATT
+    title: "배터리 규정"
+    category: "document"
+    basis: "Regulation (EU) 2023/1542"
+    url: "https://eur-lex.europa.eu"
+    when:
+      battery: true
+    needs_review: true
+  - id: EU-DOC
+    title: "EU 적합 선언서"
+    category: "document"
+    basis: "Decision 768/2008/EC"
+    url: "https://eur-lex.europa.eu"
+    document: "eu_doc"
+  - id: EU-WEEE
+    title: "WEEE 표시"
+    category: "labeling"
+    basis: "Directive 2012/19/EU"
+    url: "https://eur-lex.europa.eu"
+    document: "weee_label"

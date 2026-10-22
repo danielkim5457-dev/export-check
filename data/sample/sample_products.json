@@ -1,0 +1,216 @@
+[
+  {
+    "id": "P001",
+    "name": "휴대용 블렌더 BL-200",
+    "materials": [
+      "스테인리스",
+      "트라이탄"
+    ],
+    "power": "USB-C 리튬이온 7.4V",
+    "food_contact": true,
+    "hs_code": "8509.40"
+  },
+  {
+    "id": "P002",
+    "name": "스마트 체중계 SC-10",
+    "materials": [
+      "강화유리",
+      "ABS"
+    ],
+    "power": "AAA 건전지",
+    "food_contact": false,
+    "hs_code": "8423.10"
+  },
+  {
+    "id": "P003",
+    "name": "무선 충전 패드 WP-3",
+    "materials": [
+      "알루미늄",
+      "PC"
+    ],
+    "power": "USB-C 9V 입력",
+    "food_contact": false,
+    "hs_code": "8504.40"
+  },
+  {
+    "id": "P004",
+    "name": "LED 무드등 LM-7",
+    "materials": [
+      "PP",
+      "LED"
+    ],
+    "power": "USB 5V",
+    "food_contact": false,
+    "hs_code": "9405.21"
+  },
+  {
+    "id": "P005",
+    "name": "전동 칫솔 ET-5",
+    "materials": [
+      "PBT",
+      "실리콘"
+    ],
+    "power": "리튬이온 3.7V",
+    "food_contact": false,
+    "hs_code": "8509.80"
+  },
+  {
+    "id": "P006",
+    "name": "미니 착즙기 JX-1",
+    "materials": [
+      "트라이탄",
+      "스테인리스"
+    ],
+    "power": "AC 220V",
+    "food_contact": true,
+    "hs_code": "8509.40"
+  },
+  {
+    "id": "P007",
+    "name": "전기 포트 KT-9",
+    "materials": [
+      "스테인리스",
+      "PP"
+    ],
+    "power": "AC 220V",
+    "food_contact": true,
+    "hs_code": "8516.79"
+  },
+  {
+    "id": "P008",
+    "name": "탁상 램프 DL-2",
+    "materials": [
+      "알루미늄",
+      "LED"
+    ],
+    "power": "AC 어댑터 12V",
+    "food_contact": false,
+    "hs_code": "9405.21"
+  },
+  {
+    "id": "P009",
+    "name": "휴대용 가습기 HM-4",
+    "materials": [
+      "PP",
+      "실리콘"
+    ],
+    "power": "USB-C 리튬이온 3.7V",
+    "food_contact": false,
+    "hs_code": "8509.80"
+  },
+  {
+    "id": "P010",
+    "name": "충전 어댑터 AD-65",
+    "materials": [
+      "PC"
+    ],
+    "power": "AC 100-240V",
+    "food_contact": false,
+    "hs_code": "8504.40"
+  },
+  {
+    "id": "P011",
+    "name": "주방 저울 KS-3",
+    "materials": [
+      "강화유리"
+    ],
+    "power": "CR2032",
+    "food_contact": false,
+    "hs_code": "8423.10"
+  },
+  {
+    "id": "P012",
+    "name": "핸디 믹서 HX-6",
+    "materials": [
+      "스테인리스",
+      "ABS"
+    ],
+    "power": "리튬이온 7.4V",
+    "food_contact": true,
+    "hs_code": "8509.40"
+  },
+  {
+    "id": "P013",
+    "name": "LED 수면등 NL-1",
+    "materials": [
+      "실리콘",
+      "LED"
+    ],
+    "power": "USB 5V",
+    "food_contact": false,
+    "hs_code": "9405.21"
+  },
+  {
+    "id": "P014",
+    "name": "무선 충전 거치대 WS-2",
+    "materials": [
+      "ABS"
+    ],
+    "power": "USB-C 9V 입력",
+    "food_contact": false,
+    "hs_code": "8504.40"
+  },
+  {
+    "id": "P015",
+    "name": "커피 그라인더 CG-8",
+    "materials": [
+      "스테인리스",
+      "PP"
+    ],
+    "power": "AC 220V",
+    "food_contact": true,
+    "hs_code": "8509.40"
+  },
+  {
+    "id": "P016",
+    "name": "전동 면도기 SV-3",
+    "materials": [
+      "스테인리스",
+      "ABS"
+    ],
+    "power": "리튬이온 3.7V",
+    "food_contact": false,
+    "hs_code": "8510.10"
+  },
+  {
+    "id": "P017",
+    "name": "보온 텀블러 히터 TH-1",
+    "materials": [
+      "스테인리스"
+    ],
+    "power": "USB 5V",
+    "food_contact": true,
+    "hs_code": "8516.79"
+  },
+  {
+    "id": "P018",
+    "name": "스마트 플러그 SP-1",
+    "materials": [
+      "PC"
+    ],
+    "power": "AC 220V",
+    "food_contact": false,
+    "hs_code": "8536.69"
+  },
+  {
+    "id": "P019",
+    "name": "휴대용 선풍기 FN-5",
+    "materials": [
+      "ABS"
+    ],
+    "power": "리튬이온 3.7V",
+    "food_contact": false,
+    "hs_code": "8414.51"
+  },
+  {
+    "id": "P020",
+    "name": "전기 거품기 MF-2",
+    "materials": [
+      "스테인리스",
+      "PP"
+    ],
+    "power": "AA 건전지",
+    "food_contact": true,
+    "hs_code": "8509.40"
+  }
+]

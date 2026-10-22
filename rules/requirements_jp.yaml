@@ -1,0 +1,31 @@
+# JP 요건표 · 초안 (전문가 검수 전)
+requirements:
+  - id: JP-PSE
+    title: "PSE · 전기용품안전법"
+    category: "certification"
+    basis: "電気用品安全法"
+    url: "https://www.meti.go.jp"
+    document: "pse_report"
+    needs_review: true
+  - id: JP-PSE-BATT
+    title: "PSE · 리튬이온 축전지"
+    category: "certification"
+    basis: "電気用品安全法 (特定以外)"
+    url: "https://www.meti.go.jp"
+    document: "pse_battery"
+    when:
+      battery: true
+  - id: JP-FOOD
+    title: "식품위생법 재질 시험"
+    category: "chemical"
+    basis: "食品衛生法 · 器具及び容器包装"
+    url: "https://www.mhlw.go.jp"
+    document: "jp_food_test"
+    when:
+      food_contact: true
+  - id: JP-LABEL
+    title: "일본어 표시"
+    category: "labeling"
+    basis: "家庭用品品質表示法"
+    url: "https://www.caa.go.jp"
+    document: "jp_label"

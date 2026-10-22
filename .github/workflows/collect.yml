@@ -1,0 +1,15 @@
+name: collect
+on:
+  workflow_dispatch:
+  # 베타 운영 시 활성화: 매일 06:00 KST
+  # schedule:
+  #   - cron: "0 21 * * *"
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m collectors.run --dry

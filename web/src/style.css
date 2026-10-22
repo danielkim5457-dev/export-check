@@ -1,0 +1,10 @@
+:root {
+  --bg: #0a0d12; --surface: #11151c; --line: #262d39; --text: #f3f2ee; --muted: #a7aebb;
+  --accent: #5b7cff; --ok: #0f9f6e; --warn: #b97800; --bad: #e5484d;
+  font-family: 'Pretendard', 'Noto Sans KR', system-ui, sans-serif;
+}
+body { margin: 0; background: var(--bg); color: var(--text); }
+a { color: var(--accent); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 20px; }
+table { width: 100%; border-collapse: collapse; }
+td, th { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; }

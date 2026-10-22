@@ -1,0 +1,52 @@
+[
+  {
+    "country": "EU",
+    "title": "Regulation (EU) No 10/2011",
+    "summary": "식품 접촉 플라스틱 재료는 이행(migration) 한도를 넘지 않아야 하고 적합 선언서를 갖춰야 한다."
+  },
+  {
+    "country": "EU",
+    "title": "Directive 2011/65/EU (RoHS)",
+    "summary": "전기 전자제품의 납 · 수은 · 카드뮴 등 유해물질 함량을 제한한다."
+  },
+  {
+    "country": "EU",
+    "title": "Directive 2014/35/EU (LVD)",
+    "summary": "정격 전압 50~1000V AC 전기기기의 안전 요건과 CE 표시를 정한다."
+  },
+  {
+    "country": "EU",
+    "title": "Regulation (EU) 2023/1542",
+    "summary": "배터리의 표시 · 회수 · 실사 의무를 단계적으로 정한다."
+  },
+  {
+    "country": "US",
+    "title": "47 CFR Part 15",
+    "summary": "의도하지 않은 전파 방사 기기의 방사 한도와 인증 절차를 정한다."
+  },
+  {
+    "country": "US",
+    "title": "21 CFR 174-178",
+    "summary": "식품 접촉 물질로 쓸 수 있는 재료와 조건을 정한다."
+  },
+  {
+    "country": "JP",
+    "title": "電気用品安全法",
+    "summary": "전기용품의 기술 기준 적합 확인과 PSE 표시를 의무화한다."
+  },
+  {
+    "country": "CN",
+    "title": "CCC 目录",
+    "summary": "강제 인증 대상 제품은 CCC 인증 없이 수입 · 판매할 수 없다."
+  },
+  {
+    "country": "IN",
+    "title": "BIS CRS",
+    "summary": "지정 전자 · IT 제품은 BIS 등록 후 R 번호를 표시해야 한다."
+  },
+  {
+    "country": "IN",
+    "title": "Legal Metrology Rules",
+    "summary": "포장 제품은 제조자 · 원산지 · 순중량 등을 표시해야 한다."
+  }
+]

@@ -1,0 +1,30 @@
+# CN 요건표 · 초안 (전문가 검수 전)
+requirements:
+  - id: CN-CCC
+    title: "CCC 강제 인증"
+    category: "certification"
+    basis: "CCC 目录 (SAMR)"
+    url: "https://www.samr.gov.cn"
+    document: "ccc_cert"
+    when:
+      hs_prefix: ["8509", "8516", "8504"]
+  - id: CN-GB4806
+    title: "식품 접촉 재질 (GB 4806)"
+    category: "chemical"
+    basis: "GB 4806 系列"
+    url: "https://www.samr.gov.cn"
+    document: "gb4806_test"
+    when:
+      food_contact: true
+  - id: CN-ROHS
+    title: "중국 RoHS 표시"
+    category: "chemical"
+    basis: "SJ/T 11364"
+    url: "https://www.miit.gov.cn"
+    document: "cn_rohs"
+  - id: CN-LABEL
+    title: "중국어 라벨"
+    category: "labeling"
+    basis: "GB 5296.2"
+    url: "https://www.samr.gov.cn"
+    document: "cn_label"

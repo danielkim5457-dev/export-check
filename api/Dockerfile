@@ -1,0 +1,9 @@
+FROM python:3.12-slim
+WORKDIR /srv
+COPY api/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+COPY api /srv/api
+COPY rules /srv/rules
+COPY data /srv/data
+ENV PYTHONPATH=/srv
+CMD ["uvicorn", "api.app.main:app", "--host", "0.0.0.0", "--port", "8000"]
