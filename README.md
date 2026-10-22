@@ -42,7 +42,18 @@ export-check/
 `-- docker-compose.yml · Makefile
 ```
 
-## 실행
+## 바로 실행 (화면만, 서버 없이)
+
+```bash
+cd web
+npm install
+npm run dev
+```
+
+브라우저에서 `http://localhost:5173` — 가상 샘플 데이터로 바로 동작합니다.
+요건 화면에서 서류 칸을 체크하면 준비도 점수가 바뀌고, 승인하면 활동 기록에 남습니다 (새로고침하면 초기화).
+
+## 전체 실행 (API 포함)
 
 ```bash
 cp .env.example .env
