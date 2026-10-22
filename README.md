@@ -5,6 +5,20 @@
 
 > 이 저장소의 품목 · 회사 · 담당자 데이터는 모두 **가상 샘플**입니다. 리포트는 참고용이며 통관을 보장하지 않습니다.
 
+## 화면
+
+> 가상 샘플 데이터 화면입니다.
+
+| 오늘의 검토 | 품목 등록 · HS 추천 |
+|---|---|
+| ![대시보드](docs/screenshots/01-dashboard.png) | ![품목 등록](docs/screenshots/02-product.png) |
+| **품목 × 국가 요건 표** | **근거 규정 · 할 일** |
+| ![요건 표](docs/screenshots/03-matrix.png) | ![요건 상세](docs/screenshots/04-requirement.png) |
+| **승인 · 이력** | **국가별 리포트** |
+| ![승인](docs/screenshots/05-approval.png) | ![리포트](docs/screenshots/07-report.png) |
+
+<p align="center"><img src="docs/screenshots/06-mobile.png" width="260" alt="모바일"></p>
+
 ## 주요 기능
 
 | 기능 | 설명 |
@@ -55,4 +69,4 @@ eCFR · CPSC (미국), EUR-Lex (EU), METI (일본), SAMR (중국), BIS (인도),
 
 ## 상태
 
-베타 준비 중 — 요건표 전문가 검수, HS 분류 정확도 개선, 파일럿 진행 예정.
+배포 전 · 로컬 테스트 중 — 요건표 전문가 검수, HS 분류 정확도 개선, 파일럿 진행 예정.
